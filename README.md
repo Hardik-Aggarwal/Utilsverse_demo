@@ -2,7 +2,6 @@
 Utilsverse Documentation 
 
 
-
 ## PascalCase
 ```js
 // import module
@@ -20,7 +19,7 @@ console.log(PascalCase(str));
 ## camelCase
 ```js
 // import module
-import camelCase from 'utilsverse/camelCase';
+import {camelCase} from 'utilsverse/camelCase';
 
 // example string
 let str = "abcd efgh";
@@ -34,7 +33,7 @@ console.log(camelCase(str));
 ## snake_case
 ```js
 // import module
-import snake_case from 'utilsverse/snake_case';
+import {snake_case} from 'utilsverse/snake_case';
 
 // example string
 let str = "aecd efgh";
@@ -48,7 +47,7 @@ console.log(snake_case(str));
 ## firstCap
 ```js
 // import module
-import firstCap from 'utilsverse/firstCap'
+import {firstCap} from 'utilsverse/firstCap'
 
 // example string
 let str = "aeGd efgh ijkL";
@@ -62,7 +61,7 @@ console.log(firstCap(str));
 ## onlyFirstCap
 ```js
 // import module
-import onlyFirstCap from 'utilsverse/onlyFirstCap'
+import {onlyFirstCap} from 'utilsverse/onlyFirstCap'
 
 // example string
 let str = "aeGd efgh ijkL";
@@ -76,7 +75,7 @@ console.log(onlyFirstCap(str));
 ## removeHTMLTags
 ```js
 // import module
-import removeHTMLTags from 'utilsverse/removeHTMLTags'
+import {removeHTMLTags} from 'utilsverse/removeHTMLTags'
 
 // example tag
 let tags = "<h1> Hello World! </h1>";
@@ -90,7 +89,7 @@ console.log(removeHTMLTags(tags));
 ## debounce - works on DOM.
 ```js
 // import module
-import debounce from 'utilsverse/debounce';
+import {debounce} from 'utilsverse/debounce';
 
 // debounce function
 debounce(()=>{
@@ -106,7 +105,7 @@ debounce(()=>{
 ## throttle - works on DOM.
 ```js
 // import module
-import throttle from 'utilsverse/throttle';
+import {throttle} from 'utilsverse/throttle';
 
 // throttle function
 throttle(()=>{
@@ -122,7 +121,7 @@ throttle(()=>{
 ## delay
 ```js
 // import module
-import delay from 'utilsverse/delay';
+import {delay} from 'utilsverse/delay';
 
 // example function
 function example() {
@@ -138,7 +137,7 @@ delay(example, 1000)
 ## date_dmy
 ```js
 // import module
-import dmy from 'utilsverse/date_dmy';
+import {dmy} from 'utilsverse/date_dmy';
 
 // convert today's date to dd-mm-yyyy format
 console.log(dmy())
@@ -150,7 +149,7 @@ console.log(dmy())
 ## date_mdy
 ```js
 // import module
-import mdy from 'utilsverse/date_mdy';
+import {mdy} from 'utilsverse/date_mdy';
 
 // convert today's date to dd-mm-yyyy format
 console.log(mdy())
@@ -162,7 +161,7 @@ console.log(mdy())
 ## date_ymd
 ```js
 // import module
-import ymd from 'utilsverse/date_ymd';
+import {ymd} from 'utilsverse/date_ymd';
 
 // convert today's date to dd-mm-yyyy format
 console.log(ymd())
@@ -174,7 +173,7 @@ console.log(ymd())
 ## isLeap
 ```js
 // import module
-import isLeap from 'utilsverse/isLeap';
+import {isLeap} from 'utilsverse/isLeap';
 
 // calling isLeap Fn
 console.log(isLeap(2020));
@@ -185,7 +184,7 @@ console.log(isLeap(2020));
 ## formate_date_util
 ```js
 // import module
-import util from 'utilsverse/format_date_util';
+import {util} from 'utilsverse/format_date_util';
 
 // return day, date and year
 console.log(util(new Date()))
@@ -197,7 +196,7 @@ console.log(util(new Date()))
 ## randomNumberInRange
 ```js
 // import module
-import random from 'utilsverse/randomNumberInRange';
+import {random} from 'utilsverse/randomNumberInRange';
 
 // generate random number in range 1 - 100
 console.log(random(1,100));
@@ -208,7 +207,7 @@ console.log(random(1,100));
 ## triggerFnPerSec
 ```js
 // import module
-import triggerFnPerSec from 'utilsverse/triggerFnPerSecond';
+import {triggerFnPerSec} from 'utilsverse/triggerFnPerSecond';
 
 // example function
 function example() {
@@ -225,7 +224,7 @@ triggerFnPerSec(example)
 ## triggerFnPerInterval
 ```js
 // import module
-import triggerFnPerInterval from 'utilsverse/triggerFnPerInterval';
+import {triggerFnPerInterval} from 'utilsverse/triggerFnPerInterval';
 
 // example function
 function example() {
